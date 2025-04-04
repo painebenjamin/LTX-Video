@@ -2,7 +2,5 @@ from enum import Enum, auto
 
 
 class SkipLayerStrategy(Enum):
-    AttentionSkip = auto()
-    AttentionValues = auto()
+    Attention = auto()
     Residual = auto()
-    TransformerBlock = auto()
